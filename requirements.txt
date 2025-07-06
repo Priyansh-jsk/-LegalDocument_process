@@ -1,0 +1,8 @@
+streamlit
+pymupdf
+pdf2image
+pytesseract
+Pillow
+openai
+easyocr
+PyPDF2
