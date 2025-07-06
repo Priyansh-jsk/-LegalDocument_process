@@ -8,6 +8,12 @@ Legal document automation process-
 
 -  Field extraction or classification of denial types (IME, Peer Review, Technical Denial, etc.). Using openAI model.
 
+-  Take two forms AR1 (Arbitration Request Form New York) and NF3 (No Fault Form NY).
+
+- Compare billed amounts from AR1 with CPT codes and amounts in NF3. Flag any mismatch or missing bills.
+
+- Use line-item service match (NF3) against AR1. Flag differences in total or date-of-service entries.
+
 -  Web application using Streamlit interface.
 
 ![legalDoc1](https://github.com/user-attachments/assets/be35285d-2f38-4d0c-89d9-c63d1002219e)
